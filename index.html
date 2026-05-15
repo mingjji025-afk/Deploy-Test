@@ -1,0 +1,2710 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>sidmool</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <!-- AOS CSS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- jQuery Lib -->
+    <script src="js/jquery-4.0.0.min.js"></script>
+    <!-- jQuery throttle CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!-- JS -->
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <!-- ====== popup menu ====== -->
+        <!-- // popup menu -->
+        <!-- ====== quick menu ====== -->
+        <div class="quick-menu">
+            <ul>
+                <li class="quick-cs">
+                    <a href="#">
+                        <span class="material-symbols-outlined">support_agent</span>
+                        고객센터
+                        <strong>1577-9638</strong>
+                    </a>
+                </li>
+                <li class="quick-notice">
+                    <a href="#">
+                        <img src="images/quick-notice-icon.png" alt="공지사항 아이콘">
+                        공지사항
+                    </a>
+                </li>
+                <li class="quick-inquiry">
+                    <a href="#">
+                        <img src="images/quick-inquiry-icon.png" alt="1대1문의 아이콘">
+                        1:1 문의
+                    </a>
+                </li>
+                <li class="quick-attend">
+                    <a href="#">
+                        <img src="images/quick-attend-icon.png" alt="출석체크 아이콘">
+                        출석체크
+                    </a>
+                </li>
+                <li class="quick-bank-info">
+                    <a href="#">
+                        <span class="material-symbols-outlined">account_balance</span>
+                        계좌안내
+                    </a>
+                </li>
+                <li class="top-btn">
+                    <a href="#">
+                        <span class="material-symbols-outlined">keyboard_arrow_up</span>
+                        TOP
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- // quick menu -->
+        <!-- ====== mobile menu ====== -->
+        <div class="mb-menu-bg"></div>
+        <div class="mb-menu">
+            <div class="mb-menu-title">
+                <h2 class="mb-logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="SIDMOOL 로고">
+                    </a>
+                </h2>
+                <a href="#" class="mb-btn-close" aria-label="모바일 메뉴 닫기">
+                    <span class="material-symbols-outlined">close</span>
+                </a>
+            </div>
+            <div class="mb-search">
+                <span class="material-symbols-outlined">search</span>
+                <input type="text" placeholder="시드물 제품 검색">
+            </div>
+            <a href="#" class="mb-join-box">
+                <span class="material-symbols-outlined mb-join-icon">featured_seasonal_and_gifts</span>
+                <strong>
+                    지금 회원가입하고<br>
+                    특별한 혜택 받아보세요
+                </strong>
+                <span class="material-symbols-outlined mb-arrow">chevron_right</span>
+            </a>
+            <ul class="mb-main-menu">
+                <li>
+                    <a href="#" class="mb-menu-list mb-li-arrow">
+                        <span class="material-symbols-outlined mb-icon">eco</span>
+                        카테고리
+                        <span class="material-symbols-outlined arrow">chevron_right</span>
+                    </a>
+                    <ul class="mb-submenu">
+                        <li><a href="#">스킨케어</a></li>
+                        <li><a href="#">클렌징</a></li>
+                        <li><a href="#">선케어</a></li>
+                        <li><a href="#">바디/헤어</a></li>
+                        <li><a href="#">남성케어</a></li>
+                        <li><a href="#">메이크업</a></li>
+                        <li><a href="#">건강식품</a></li>
+                        <li><a href="#">뷰티소품</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="mb-menu-list">
+                        <span class="material-symbols-outlined mb-icon">shopping_bag</span>
+                        신제품
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="mb-menu-list mb-li-arrow">
+                        <span class="material-symbols-outlined mb-icon">sms</span>
+                        고민별
+                        <span class="material-symbols-outlined arrow">chevron_right</span>
+                    </a>
+                    <ul class="mb-submenu">
+                        <li><a href="#">트러블/시카</a></li>
+                        <li><a href="#">민감/건조</a></li>
+                        <li><a href="#">미백/흔적</a></li>
+                        <li><a href="#">탄력/주름</a></li>
+                        <li><a href="#">모공/피지</a></li>
+                        <li><a href="#">탈모케어</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="mb-menu-list">
+                        <span class="material-symbols-outlined mb-icon">emoji_events</span>
+                        베스트
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="mb-menu-list">
+                        <span class="material-symbols-outlined mb-icon">redeem</span>
+                        이벤트
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="mb-menu-list mb-li-arrow">
+                        <span class="material-symbols-outlined mb-icon">sell</span>
+                        브랜드
+                        <span class="material-symbols-outlined arrow">chevron_right</span>
+                    </a>
+                    <ul class="mb-submenu">
+                        <li><a href="#">시드물 개요/연혁/비전</a></li>
+                        <li><a href="#">시드물 소개/나눔과 실천</a></li>
+                        <li><a href="#">개발 & 품질관리</a></li>
+                        <li><a href="#">오시는 길</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="mb-cs-menu">
+                <li>
+                    <a href="#">
+                        <span class="material-symbols-outlined mb-icon">help</span>
+                        자주 묻는 질문
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="material-symbols-outlined mb-icon">support_agent</span>
+                        1:1 문의
+                    </a>
+                </li>
+            </ul>
+            <div class="mb-menu-footer">
+            <ul class="mb-footer-link">
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">이용안내</a></li>
+            </ul>
+            <p>© SIDMOOL. All rights reserved.</p>
+        </div>
+        </div>
+        <!-- // mobile menu -->
+        <!-- mobile bottom menu -->
+        <div class="mb-bottom-menu">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="material-symbols-outlined">grid_view</span>
+                        카테고리
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="material-symbols-outlined">search</span>
+                        검색
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="#">
+                        <span class="material-symbols-outlined">home</span>
+                        홈
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="material-symbols-outlined">favorite</span>
+                        찜
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="material-symbols-outlined">person</span>
+                        마이페이지
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- // mobile bottom menu -->
+        <!-- ====== top-banner(상단 띠배너) ======-->
+        <div class="top-banner">
+            <a href="#" class="banner-link">
+                지금 회원가입하고 특별한 혜택 받아보세요 →
+            </a>
+            <button type="button" class="top-banner-close" aria-label="상단 배너 닫기">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+        </div>
+        <!-- // top-banner(상단 띠배너) -->
+        <!-- ====== header ====== -->
+        <header class="header">
+            <div class="container">
+                <!-- mobile menu button -->
+                <a href="#" class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <h1 class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="SIDMOOL 로고 이미지">
+                    </a>
+                </h1>
+                <nav>
+                    <ul class="main-menu">
+                        <li>
+                            <a href="#">카테고리</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">스킨케어</a></li>
+                                <li><a href="#">클렌징</a></li>
+                                <li><a href="#">선케어</a></li>
+                                <li><a href="#">바디/헤어</a></li>
+                                <li><a href="#" class="sub-menu-men">남성케어</a></li>
+                                <li><a href="#">메이크업</a></li>
+                                <li><a href="#">건강식품</a></li>
+                                <li><a href="#">뷰티소품</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">신제품</a>
+                        </li>
+                        <li class="click-menu">
+                            <a href="#">고민별
+                                <span class="material-symbols-outlined">keyboard_arrow_down</span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li><a href="#">트러블/시카</a></li>
+                                <li><a href="#">민감/건조</a></li>
+                                <li><a href="#">미백/흔적</a></li>
+                                <li><a href="#">탄력/주름</a></li>
+                                <li><a href="#">모공/피지</a></li>
+                                <li><a href="#">탈모케어</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">베스트</a>
+                        </li>
+                        <li>
+                            <a href="#">이벤트</a>
+                        </li>
+                        <li class="click-menu">
+                            <a href="#">브랜드
+                                <span class="material-symbols-outlined">keyboard_arrow_down</span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li><a href="#">시드물 개요/연혁/비전</a></li>
+                                <li><a href="#">시드물 소개/나눔과 실천</a></li>
+                                <li><a href="#">개발 & 품질관리</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="header-util">
+                    <li>
+                        <a href="#">
+                            <img src="images/icon-search.png" alt="검색">
+                            <span>검색</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/icon-hd-language.png" alt="EN/영어 전환">
+                            <span>EN/영어 전환</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/icon-hd-my.png" alt="로그인">
+                            <span>로그인</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/icon-hd-cart.png" alt="장바구니">
+                            <span>장바구니</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- // header -->
+        <!-- ====== main ====== -->
+        <main>
+            <!-- visual -->
+            <section class="visual">
+                <h2 class="blind">메인 배너</h2>
+                <div class="swiper sw-visual">
+                    <div class="swiper-wrapper">
+                        <!-- slide01 -->
+                        <div class="swiper-slide">
+                            <!-- pc -->
+                            <div class="visual-pc">
+                                <a href="#">
+                                    <img src="images/main-banner01.jpg" alt="시드물 메인 배너 이미지1">
+                                    <span class="visual-btn">
+                                        제품 보러가기
+                                    </span>
+                                </a>
+                            </div>
+                            <!-- mobile -->
+                            <div class="visual-mobile">
+                                <a href="#">
+                                    <img src="images/main-banner01-mobile.jpg" alt="시드물 모바일 메인 배너 이미지1">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- slide02 -->
+                        <div class="swiper-slide">
+                            <!-- pc -->
+                            <div class="visual-pc">
+                                <a href="#">
+                                    <img src="images/main-banner02.jpg" alt="시드물 메인 배너 이미지2">
+                                </a>
+                            </div>
+                            <!-- mobile -->
+                            <div class="visual-mobile">
+                                <a href="#">
+                                    <img src="images/main-banner02-mobile.jpg" alt="시드물 모바일 메인 배너 이미지2">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- pagination -->
+                    <div class="visual-pagination"></div>
+                    <!-- navigation -->
+                    <div class="visual-prev">
+                        <span class="material-symbols-outlined">
+                            chevron_left
+                        </span>
+                    </div>
+                    <div class="visual-next">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                    </div>
+                </div>
+            </section>
+            <!-- // visual -->
+            <!-- brand-value -->
+            <section class="brand-value">
+                <h2 class="blind">브랜드 가치</h2>
+                <div class="container">
+                    <ul class="value-list">
+                        <li>
+                            <div class="value-icon">
+                                <img src="images/icon-value01.png" alt="자연사랑 캠페인 아이콘">
+                            </div>
+                            <div class="value-text">
+                                <h3>자연사랑 캠페인</h3>
+                                <p>
+                                    사용 후 남은 공병을 회수해<br>
+                                    환경 순환을 실천합니다
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="value-icon">
+                                <img src="images/icon-value02.png" alt="동물 보호 아이콘">
+                            </div>
+                            <div class="value-text">
+                                <h3>동물 보호</h3>
+                                <p>
+                                    동물 실험을 하지 않는<br>
+                                    착한 제품만을 만듭니다
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="value-icon">
+                                <img src="images/icon-value03.png" alt="정직한 제조 아이콘">
+                            </div>
+                            <div class="value-text">
+                                <h3>정직한 제조</h3>
+                                <p>
+                                    꼭 필요한 성분만 담아<br>
+                                    피부에 편안함을 전합니다
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- // brand-value  -->
+            <!-- new-product -->
+            <section class="new-product section">
+                <div class="container">
+                    <div class="new-product-title">
+                        <span>지금 주목해야 할</span>
+                        <h2>NEW</h2>
+                        <p class="desc">
+                            고객님의 의견을 반영하여 만든 새로운 신제품!
+                        </p>
+                    </div>
+                    <div class="swiper sw-new">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <span class="new-badge">NEW</span>
+                                    <div class="new-img">
+                                        <img src="images/new-product01.png" alt="시드물 콜라겐 앰플 에센스">
+                                    </div>
+                                    <div class="new-desc">
+                                        <p class="new-review">
+                                            <span class="material-icons">star</span>
+                                            <strong>4.9</strong> (365)
+                                        </p>
+                                        <h3>
+                                            시드물 콜라겐 앰플 에센스 500g
+                                        </h3>
+                                        <p class="desc">
+                                            콜라겐 앰플 마스크 팩<br>
+                                            20장을 그대로 쏙! 넉넉한 용량!
+
+                                        </p>
+                                        <h4>
+                                            18,900원
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <span class="new-badge">NEW</span>
+                                    <div class="new-img">
+                                        <img src="images/new-product02.png" alt="닥터트럽 클렌징 밀크">
+                                    </div>
+                                    <div class="new-desc">
+                                        <p class="new-review">
+                                            <span class="material-icons">star</span>
+                                            <strong>4.9</strong> (365)
+                                        </p>
+                                        <h3>
+                                            닥터트럽 클렌징 밀크 200ml/500ml/리필용 1L(1000ml) [선택구입] 
+                                        </h3>
+                                        <p class="desc">
+                                            장벽 강화/약산성 촉촉한 딥 클렌징
+                                        </p>
+                                        <h4>
+                                            <em>23%</em>
+                                            13,600원
+                                            <span class="c-price">17,680원</span>
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <span class="new-badge">NEW</span>
+                                    <div class="new-img">
+                                        <img src="images/new-product03.png" alt="닥터트럽 노 버블 여드름 클렌져">
+                                    </div>
+                                    <div class="new-desc">
+                                        <p class="new-review">
+                                            <span class="material-icons">star</span>
+                                            <strong>4.9</strong> (365)
+                                        </p>
+                                        <h3>
+                                            닥터트럽 노 버블 여드름 클렌져 110ml
+                                        </h3>
+                                        <p class="desc">
+                                            살리실릭애씨드 성분으로<br>
+                                            각질과 피지를 꼼꼼히 정돈!
+                                        </p>
+                                        <h4>
+                                            <em>49%</em>
+                                            19,800원
+                                            <span class="c-price">39,000원</span>
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <span class="new-badge">NEW</span>
+                                    <div class="new-img">
+                                        <img src="images/new-product04.png" alt="스킨소스 코직산 앰플">
+                                    </div>
+                                    <div class="new-desc">
+                                        <p class="new-review">
+                                            <span class="material-icons">star</span>
+                                            <strong>4.9</strong> (365)
+                                        </p>
+                                        <h3>
+                                            스킨소스 코직산 앰플 12ml
+                                        </h3>
+                                        <p class="desc">
+                                            기미+잡티+주근깨 개선에<br>
+                                            미백 기능성까지!
+                                        </p>
+                                        <h4>
+                                            18,600원
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <span class="new-badge">NEW</span>
+                                    <div class="new-img">
+                                        <img src="images/new-product05.png" alt="리얼 실크 헤어 수분 로션">
+                                    </div>
+                                    <div class="new-desc">
+                                        <p class="new-review">
+                                            <span class="material-icons">star</span>
+                                            <strong>4.9</strong> (365)
+                                        </p>
+                                        <h3>
+                                            리얼 실크 헤어 수분 로션 150ml
+                                        </h3>
+                                        <p class="desc">
+                                            고함량 실크수 23%!<br>
+                                            손상 모발 윤기 코팅 로션
+                                        </p>
+                                        <h4>
+                                            <em>55%</em>
+                                            9,800원
+                                            <span class="c-price">22,000원</span>
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <span class="new-badge">NEW</span>
+                                    <div class="new-img">
+                                        <img src="images/new-product06.png" alt="스킨소스 PLLA 리프팅 앰플">
+                                    </div>
+                                    <div class="new-desc">
+                                        <p class="new-review">
+                                            <span class="material-icons">star</span>
+                                            <strong>4.9</strong> (365)
+                                        </p>
+                                        <h3>
+                                            스킨소스 PLLA 리프팅 앰플 12ml
+                                        </h3>
+                                        <p class="desc">
+                                            탄력+재생+보습까지!<br>
+                                            PLLA 10% 리프팅 앰플
+                                        </p>
+                                        <h4>
+                                            <em>46%</em>
+                                            48,000원
+                                            <span class="c-price">89,000원</span>
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <span class="new-badge">NEW</span>
+                                    <div class="new-img">
+                                        <img src="images/new-product07.png" alt="콜라겐 앰플 마스크팩">
+                                    </div>
+                                    <div class="new-desc">
+                                        <p class="new-review">
+                                            <span class="material-icons">star</span>
+                                            <strong>4.9</strong> (365)
+                                        </p>
+                                        <h3>
+                                            콜라겐 앰플 마스크팩 25ml
+                                        </h3>
+                                        <p class="desc">
+                                            탱탱 쫀쫀!<br>
+                                            1일 1팩으로 피부를 탄력 있게!
+                                        </p>
+                                        <h4>
+                                            2,200원
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <span class="new-badge">NEW</span>
+                                    <div class="new-img">
+                                        <img src="images/new-product08.png" alt="닥터트럽 레티놀 0.6 세럼">
+                                    </div>
+                                    <div class="new-desc">
+                                        <p class="new-review">
+                                            <span class="material-icons">star</span>
+                                            <strong>4.9</strong> (365)
+                                        </p>
+                                        <h3>
+                                            닥터트럽 레티놀 0.6 세럼 32g
+                                        </h3>
+                                        <p class="desc">
+                                            고함량 레티놀 0.6% + 4 펩타이드의 조합!<br>
+                                            & 레티놀 스피큘 팩 증정
+                                        </p>
+                                        <h4>
+                                            <em>48%</em>
+                                            <span class="sale-price">26,800원</span>
+                                            <span class="c-price">52,000원</span>
+                                            <span class="gift">
+                                                + GIFT
+                                                <span class="material-symbols-outlined">featured_seasonal_and_gifts</span>
+                                            </span>
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-pagination"></div>
+                    <div class="new-product-btn">
+                        <a href="#">신제품 더보기</a>
+                    </div>
+                </div>
+            </section>
+            <!-- // new-product -->
+            <!-- best-product -->
+            <section class="best-product section">
+                <div class="container">
+                    <div class="best-product-title">
+                        <span>지금 가장 사랑받는</span>
+                        <h2>BEST 실시간 랭킹</h2>
+                        <p class="desc">실시간 인기 제품을 한눈에 확인해보세요</p>
+                    </div>
+                    <div class="best-product-tabs">
+                        <ul>
+                            <li><a href="#all" class="active">전체</a></li>
+                            <li><a href="#skin-care">스킨케어</a></li>
+                            <li><a href="#cleansing">클렌징</a></li>
+                            <li><a href="#sun-care">선케어</a></li>
+                            <li><a href="#body-hair">바디/헤어</a></li>
+                            <li class="best-men"><a href="#men-care">남성케어</a></li>
+                            <li><a href="#makeup">메이크업</a></li>
+                            <li><a href="#health">건강식품</a></li>
+                            <li><a href="#beauty-tool">뷰티소품</a></li>
+                        </ul>
+                        <p class="update-time">
+                            <span class="material-symbols-outlined">schedule</span>
+                            1시간마다 업데이트
+                        </p>
+                    </div>
+                    <div class="best-product-contents">
+                        <div id="all">
+                            <div class="best-list">
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">1</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product01.png" alt="마다가스카르 리얼 수분크림">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>마다가스카르 리얼 수분크림 (80ml)</h5>
+                                            <p class="desc">
+                                                초 민감성, 장벽관리 다당류 보습<br>
+                                                & 닥터트럽 하이드로겔 증정
+                                            </p>
+                                            <h4>
+                                                <!-- <em>48%</em> -->
+                                                <span class="sale-price">23,800원</span>
+                                                <!-- <span class="c-price">52,000원</span> -->
+                                                <span class="gift">
+                                                    + GIFT
+                                                    <span class="material-symbols-outlined">featured_seasonal_and_gifts</span>
+                                                </span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">2</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product02.png" alt="민중기 E.G.F 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>민중기 E.G.F 앰플 (11ml)</h5>
+                                            <p class="desc">
+                                                리포좀 EGF 50PPM 20% 적용<br>
+                                                리페어/주름개선
+                                            </p>
+                                            <h4>39,800원</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">3</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product03.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">
+                                                오일 프리! 확실한 장벽케어<br>
+                                                영국산 D-판테놀 30%
+                                            </p>
+                                            <h4>
+                                                <em>17%</em>
+                                                    9,800원 
+                                                    <span class="c-price">11,800원</span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">4</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">5</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">6</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">7</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">8</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="skin-care" style="display:none;">
+                            <div class="best-list">
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">1</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product02.png" alt="마다가스카르 리얼 수분크림">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>마다가스카르 리얼 수분크림 (80ml)</h5>
+                                            <p class="desc">
+                                                초 민감성, 장벽관리 다당류 보습<br>
+                                                & 닥터트럽 하이드로겔 증정
+                                            </p>
+                                            <h4>
+                                                <!-- <em>48%</em> -->
+                                                <span class="sale-price">23,800원</span>
+                                                <!-- <span class="c-price">52,000원</span> -->
+                                                <span class="gift">
+                                                    + GIFT
+                                                    <span class="material-symbols-outlined">featured_seasonal_and_gifts</span>
+                                                </span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">2</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product02.png" alt="민중기 E.G.F 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>민중기 E.G.F 앰플 (11ml)</h5>
+                                            <p class="desc">
+                                                리포좀 EGF 50PPM 20% 적용<br>
+                                                리페어/주름개선
+                                            </p>
+                                            <h4>39,800원</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">3</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product03.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">
+                                                오일 프리! 확실한 장벽케어<br>
+                                                영국산 D-판테놀 30%
+                                            </p>
+                                            <h4>
+                                                <em>17%</em>
+                                                    9,800원 
+                                                    <span class="c-price">11,800원</span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">4</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">5</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">6</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">7</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">8</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="cleansing" style="display:none;">
+                            <div class="best-list">
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">1</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product01.png" alt="마다가스카르 리얼 수분크림">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>마다가스카르 리얼 수분크림 (80ml)</h5>
+                                            <p class="desc">
+                                                초 민감성, 장벽관리 다당류 보습<br>
+                                                & 닥터트럽 하이드로겔 증정
+                                            </p>
+                                            <h4>
+                                                <!-- <em>48%</em> -->
+                                                <span class="sale-price">23,800원</span>
+                                                <!-- <span class="c-price">52,000원</span> -->
+                                                <span class="gift">
+                                                    + GIFT
+                                                    <span class="material-symbols-outlined">featured_seasonal_and_gifts</span>
+                                                </span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">2</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product02.png" alt="민중기 E.G.F 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>민중기 E.G.F 앰플 (11ml)</h5>
+                                            <p class="desc">
+                                                리포좀 EGF 50PPM 20% 적용<br>
+                                                리페어/주름개선
+                                            </p>
+                                            <h4>39,800원</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">3</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product03.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">
+                                                오일 프리! 확실한 장벽케어<br>
+                                                영국산 D-판테놀 30%
+                                            </p>
+                                            <h4>
+                                                <em>17%</em>
+                                                    9,800원 
+                                                    <span class="c-price">11,800원</span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">4</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">5</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">6</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">7</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">8</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="sun-care" style="display:none;">
+                            <div class="best-list">
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">1</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product01.png" alt="마다가스카르 리얼 수분크림">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>마다가스카르 리얼 수분크림 (80ml)</h5>
+                                            <p class="desc">
+                                                초 민감성, 장벽관리 다당류 보습<br>
+                                                & 닥터트럽 하이드로겔 증정
+                                            </p>
+                                            <h4>
+                                                <!-- <em>48%</em> -->
+                                                <span class="sale-price">23,800원</span>
+                                                <!-- <span class="c-price">52,000원</span> -->
+                                                <span class="gift">
+                                                    + GIFT
+                                                    <span class="material-symbols-outlined">featured_seasonal_and_gifts</span>
+                                                </span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">2</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product02.png" alt="민중기 E.G.F 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>민중기 E.G.F 앰플 (11ml)</h5>
+                                            <p class="desc">
+                                                리포좀 EGF 50PPM 20% 적용<br>
+                                                리페어/주름개선
+                                            </p>
+                                            <h4>39,800원</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">3</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product03.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">
+                                                오일 프리! 확실한 장벽케어<br>
+                                                영국산 D-판테놀 30%
+                                            </p>
+                                            <h4>
+                                                <em>17%</em>
+                                                    9,800원 
+                                                    <span class="c-price">11,800원</span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">4</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">5</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">6</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">7</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">8</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="body-hair" style="display:none;">
+                            <div class="best-list">
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">1</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product01.png" alt="마다가스카르 리얼 수분크림">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>마다가스카르 리얼 수분크림 (80ml)</h5>
+                                            <p class="desc">
+                                                초 민감성, 장벽관리 다당류 보습<br>
+                                                & 닥터트럽 하이드로겔 증정
+                                            </p>
+                                            <h4>
+                                                <!-- <em>48%</em> -->
+                                                <span class="sale-price">23,800원</span>
+                                                <!-- <span class="c-price">52,000원</span> -->
+                                                <span class="gift">
+                                                    + GIFT
+                                                    <span class="material-symbols-outlined">featured_seasonal_and_gifts</span>
+                                                </span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">2</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product02.png" alt="민중기 E.G.F 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>민중기 E.G.F 앰플 (11ml)</h5>
+                                            <p class="desc">
+                                                리포좀 EGF 50PPM 20% 적용<br>
+                                                리페어/주름개선
+                                            </p>
+                                            <h4>39,800원</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">3</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product03.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">
+                                                오일 프리! 확실한 장벽케어<br>
+                                                영국산 D-판테놀 30%
+                                            </p>
+                                            <h4>
+                                                <em>17%</em>
+                                                    9,800원 
+                                                    <span class="c-price">11,800원</span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">4</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">5</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">6</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">7</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">8</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="men-care" style="display:none;">
+                            <div class="best-list">
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">1</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product01.png" alt="마다가스카르 리얼 수분크림">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>마다가스카르 리얼 수분크림 (80ml)</h5>
+                                            <p class="desc">
+                                                초 민감성, 장벽관리 다당류 보습<br>
+                                                & 닥터트럽 하이드로겔 증정
+                                            </p>
+                                            <h4>
+                                                <!-- <em>48%</em> -->
+                                                <span class="sale-price">23,800원</span>
+                                                <!-- <span class="c-price">52,000원</span> -->
+                                                <span class="gift">
+                                                    + GIFT
+                                                    <span class="material-symbols-outlined">featured_seasonal_and_gifts</span>
+                                                </span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">2</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product02.png" alt="민중기 E.G.F 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>민중기 E.G.F 앰플 (11ml)</h5>
+                                            <p class="desc">
+                                                리포좀 EGF 50PPM 20% 적용<br>
+                                                리페어/주름개선
+                                            </p>
+                                            <h4>39,800원</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">3</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product03.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">
+                                                오일 프리! 확실한 장벽케어<br>
+                                                영국산 D-판테놀 30%
+                                            </p>
+                                            <h4>
+                                                <em>17%</em>
+                                                    9,800원 
+                                                    <span class="c-price">11,800원</span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">4</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">5</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">6</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">7</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">8</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="makeup" style="display:none;">
+                            <div class="best-list">
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">1</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product01.png" alt="마다가스카르 리얼 수분크림">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>마다가스카르 리얼 수분크림 (80ml)</h5>
+                                            <p class="desc">
+                                                초 민감성, 장벽관리 다당류 보습<br>
+                                                & 닥터트럽 하이드로겔 증정
+                                            </p>
+                                            <h4>
+                                                <!-- <em>48%</em> -->
+                                                <span class="sale-price">23,800원</span>
+                                                <!-- <span class="c-price">52,000원</span> -->
+                                                <span class="gift">
+                                                    + GIFT
+                                                    <span class="material-symbols-outlined">featured_seasonal_and_gifts</span>
+                                                </span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">2</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product02.png" alt="민중기 E.G.F 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>민중기 E.G.F 앰플 (11ml)</h5>
+                                            <p class="desc">
+                                                리포좀 EGF 50PPM 20% 적용<br>
+                                                리페어/주름개선
+                                            </p>
+                                            <h4>39,800원</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">3</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product03.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">
+                                                오일 프리! 확실한 장벽케어<br>
+                                                영국산 D-판테놀 30%
+                                            </p>
+                                            <h4>
+                                                <em>17%</em>
+                                                    9,800원 
+                                                    <span class="c-price">11,800원</span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">4</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">5</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">6</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">7</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">8</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="health" style="display:none;">
+                            <div class="best-list">
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">1</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product01.png" alt="마다가스카르 리얼 수분크림">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>마다가스카르 리얼 수분크림 (80ml)</h5>
+                                            <p class="desc">
+                                                초 민감성, 장벽관리 다당류 보습<br>
+                                                & 닥터트럽 하이드로겔 증정
+                                            </p>
+                                            <h4>
+                                                <!-- <em>48%</em> -->
+                                                <span class="sale-price">23,800원</span>
+                                                <!-- <span class="c-price">52,000원</span> -->
+                                                <span class="gift">
+                                                    + GIFT
+                                                    <span class="material-symbols-outlined">featured_seasonal_and_gifts</span>
+                                                </span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">2</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product02.png" alt="민중기 E.G.F 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>민중기 E.G.F 앰플 (11ml)</h5>
+                                            <p class="desc">
+                                                리포좀 EGF 50PPM 20% 적용<br>
+                                                리페어/주름개선
+                                            </p>
+                                            <h4>39,800원</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">3</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product03.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">
+                                                오일 프리! 확실한 장벽케어<br>
+                                                영국산 D-판테놀 30%
+                                            </p>
+                                            <h4>
+                                                <em>17%</em>
+                                                    9,800원 
+                                                    <span class="c-price">11,800원</span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">4</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">5</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">6</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">7</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">8</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="beauty-tool" style="display:none;">
+                            <div class="best-list">
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">1</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product01.png" alt="마다가스카르 리얼 수분크림">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>마다가스카르 리얼 수분크림 (80ml)</h5>
+                                            <p class="desc">
+                                                초 민감성, 장벽관리 다당류 보습<br>
+                                                & 닥터트럽 하이드로겔 증정
+                                            </p>
+                                            <h4>
+                                                <!-- <em>48%</em> -->
+                                                <span class="sale-price">23,800원</span>
+                                                <!-- <span class="c-price">52,000원</span> -->
+                                                <span class="gift">
+                                                    + GIFT
+                                                    <span class="material-symbols-outlined">featured_seasonal_and_gifts</span>
+                                                </span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">2</span>
+                                        <div class="best-img">
+                                            <img src="images/best-product02.png" alt="민중기 E.G.F 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>민중기 E.G.F 앰플 (11ml)</h5>
+                                            <p class="desc">
+                                                리포좀 EGF 50PPM 20% 적용<br>
+                                                리페어/주름개선
+                                            </p>
+                                            <h4>39,800원</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">3</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product03.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">
+                                                오일 프리! 확실한 장벽케어<br>
+                                                영국산 D-판테놀 30%
+                                            </p>
+                                            <h4>
+                                                <em>17%</em>
+                                                    9,800원 
+                                                    <span class="c-price">11,800원</span>
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">4</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">5</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">6</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">7</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="best-item">
+                                    <a href="#">
+                                        <span class="rank">8</span>
+                                        <div class="best-img">
+                                            <img src="images/new-product04.png" alt="스킨소스 D-판테놀 앰플">
+                                        </div>
+                                        <div class="best-desc">
+                                            <p class="best-review">
+                                                <span class="material-icons">star</span>
+                                                <strong>4.9</strong> (365)
+                                            </p>
+                                            <h5>스킨소스 D-판테놀 앰플12ml/32ml</h5>
+                                            <p class="desc">오일 프리! 확실한 장벽케어</p>
+                                            <h4><em>17%</em> 9,800원 <span class="c-price">11,800원</span></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="best-product-btn">
+                        <a href="#">베스트 제품 더보기</a>
+                    </div>
+                </div>
+            </section>
+            <!-- // best-product -->
+            <!-- centella-line -->
+            <section class="centella-line section">
+                <div class="container">
+                    <div class="centella-title">
+                        <span>피부 진정 솔루션</span>
+                        <div class="centella-main-title">
+                            <img src="images/icon-centella.png" alt="나뭇잎 아이콘">
+                            <h2>마다가스카르 병풀 라인</h2>
+                        </div>
+                        <p class="desc">
+                            민감해진 피부를 위한 시드물의 진정 케어 추천
+                        </p>
+                    </div>
+                    <div class="centella-box">
+                        <!-- left : video -->
+                        <div class="centella-left">
+                            <video autoplay muted loop playsinline>
+                                <source src="images/centella.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <!-- right : content -->
+                        <div class="centella-right">
+                            <p class="centella-point-text">
+                                <img src="images/centella-text.png" alt="자연 그대로, 피부에 순하게">
+                            </p>
+                            <h3>
+                                시드물 병풀&#40;Centella&#41;로<br>
+                                피부가 편안해지는 순간
+                            </h3>
+                            <p class="desc">
+                                민감해진 피부를 위한 순한 진정 케어,<br>
+                                지금 영상으로 직접 만나보세요.
+                            </p>
+                            <div class="centella-product-list">
+                                <div class="centella-product">
+                                    <a href="#">
+                                        <span>#피부진정</span>
+                                        <img src="images/centella-product01.png" alt="병풀 앰플">
+                                        <strong>병풀 앰플</strong>
+                                    </a>
+                                </div>
+                                <div class="centella-product">
+                                    <a href="#">
+                                        <span>#집중케어</span>
+                                        <img src="images/centella-product02.png" alt="병풀 에센스">
+                                        <strong>병풀 에센스</strong>
+                                    </a>
+                                </div>
+                                <div class="centella-product">
+                                    <a href="#">
+                                        <span>#수분관리</span>
+                                        <img src="images/centella-product03.png" alt="병풀 수분크림">
+                                        <strong>병풀 수분크림</strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#" class="centella-btn">
+                                제품 보러가기
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- // centella-line -->
+            <!-- md-pick-banner -->
+            <section class="md-pick-banner">
+                <h2 class="blind">MD 추천 배너</h2>
+                <div class="swiper sw-md-pick">
+                    <div class="swiper-wrapper">
+                        <!-- slide 01 -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <picture>
+                                    <!-- mobile -->
+                                    <source
+                                        media="(max-width: 680px)"
+                                        srcset="images/md-pick-banner01-mobile.jpg">
+                                    <!-- pc -->
+                                    <img
+                                        src="images/md-pick-banner01.jpg"
+                                        alt="MD PICK01 오리지널 웰빙 녹차스킨 배너">
+                                </picture>
+                            </a>
+                        </div>
+                        <!-- slide 02 -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <picture>
+                                    <!-- mobile -->
+                                    <source
+                                        media="(max-width: 680px)"
+                                        srcset="images/md-pick-banner02-mobile.jpg">
+                                    <!-- pc -->
+                                    <img
+                                        src="images/md-pick-banner02.jpg"
+                                        alt="MD PICK02 호호바 립 에센스 배너">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="md-pick-pagination"></div>
+            </section>
+            <!-- // md-pick-banner -->
+            <!-- event -->
+            <section class="event section">
+                <div class="container">
+                    <div class="benefit-grid">
+                        <!-- card 01 -->
+                        <div class="benefit-group">
+                            <div class="benefit-item img-box">
+                                <a href="#">
+                                    <img src="images/event-benefit01.jpg" alt="1+1 스페셜 이벤트">
+                                    <div class="event-badge">
+                                        <p class="badge-title">1 + 1</p>
+                                        <span>
+                                            SPECIAL<br>
+                                            EVENT
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="benefit-item text-box">
+                                <span>지금 만나보는 시드물 혜택</span>
+                                <h2>다양한 시드물 이벤트</h2>
+                                <ul class="benefit-icon-list">
+                                    <li>
+                                        <div class="icon-circle">
+                                            <img src="images/event-one-plus-one.png" alt="">
+                                        </div>
+                                        <p>1+1</p>
+                                    </li>
+                                    <li>
+                                        <div class="icon-circle">
+                                            <img src="images/event-gift.png" alt="">
+                                        </div>
+                                        <p>사은품 증정</p>
+                                    </li>
+                                    <li>
+                                        <div class="icon-circle">
+                                            <img src="images/event-sale.png" alt="">
+                                        </div>
+                                        <p>할인</p>
+                                    </li>
+                                </ul>
+                                <p class="desc">
+                                    지금 시드물에서만 만나볼 수 있는<br>
+                                    특별한 혜택을 놓치지 마세요!
+                                </p>
+                                <a href="#" class="benefit-btn">
+                                    이벤트 제품 더보기
+                                </a>
+                            </div>
+                        </div>
+                        <!-- // card 01 -->
+                        <!-- card 02 -->
+                        <div class="benefit-group">
+                            <div class="benefit-item text-box membership-box">
+                                <h3>
+                                    무료 회원가입 하고<br>
+                                    <span>특별한 혜택 받아보세요!</span>
+                                </h3>
+                                <ul class="membership-list">
+                                    <li>
+                                        <img src="images/icon-membership-benefits01.png" alt="쿠폰 아이콘">
+                                        <div class="membership-text">
+                                            <p class="membership-title">
+                                                5,000원 쿠폰
+                                            </p>
+                                            <p>
+                                                구매 금액 상관없이 사용 가능한 쿠폰
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="images/icon-membership-benefits02.png" alt="할인 아이콘">
+                                        <div class="membership-text">
+                                            <p class="membership-title">
+                                                베스트 아이템 10% 할인
+                                            </p>
+                                            <p>
+                                                시드물 인기 제품 9종 특별 할인
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="#" class="benefit-btn">
+                                    혜택 자세히 보기
+                                </a>
+                            </div>
+                            <div class="benefit-item img-box">
+                                <a href="#">
+                                    <img src="images/event-benefit02.jpg" alt="시드물 추천 제품 이벤트">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- // card 02 -->
+                    </div>
+                </div>
+            </section>
+            <!-- // event -->
+            <!-- review -->
+            <section class="review section">
+                <div class="container">
+                    <div class="review-title">
+                        <span>REAL BEST REVIEW</span>
+                        <h2>고객님들의 <em>진심 후기</em></h2>
+                        <p class="desc">시드물을 사용한 고객님들의 실제 후기를 확인해보세요.</p>
+                    </div>
+                    <ul class="review-tags">
+                        <li>#BEST</li>
+                        <li class="active">#포인트적립</li>
+                        <li>#리뷰이벤트</li>
+                    </ul>
+                    <div class="swiper sw-review">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="review-card">
+                                    <div class="best-ribbon">
+                                        BEST
+                                    </div>
+                                    <div class="review-img">
+                                        <a href="https://www.sidmool.com/board/board.html?code=sidmool_image5&page=1&type=v&num1=999917&num2=00000&lock=N">
+                                            <img src="images/review01.jpg" alt="시드물 포토 후기 이미지01">
+                                        </a>
+                                    </div>
+                                    <div class="review-info">
+                                        <div class="review-top">
+                                            <p class="review-user">
+                                                <img src="images/royal-icon-SP16.gif" alt="">
+                                                ccjj**
+                                            </p>
+                                            <span class="review-date">2026-04-01 14:42:16</span>
+                                        </div>
+                                        <p class="review-text">까라꼴 포어 타이트닝 팩 (모공, 블랙헤드 관리 강추)</p>
+                                        <div class="review-reaction">
+                                            <span>도움이 되었어요!</span>
+                                            <span class="review-heart">
+                                                <span class="material-icons-outlined">favorite</span>
+                                                37
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review-card">
+                                    <div class="best-ribbon">
+                                        BEST
+                                    </div>
+                                    <div class="review-img">
+                                        <a href="https://www.sidmool.com/board/board.html?code=sidmool_image5&page=1&type=v&num1=999918&num2=00000&lock=N">
+                                            <img src="images/review02.jpg" alt="시드물 베스트 포토 후기 이미지02">
+                                        </a>
+                                    </div>
+                                    <div class="review-info">
+                                        <div class="review-top">
+                                            <p class="review-user">
+                                                <img src="images//royal-icon-SP16.gif" alt="">
+                                                jijom*****
+                                            </p>
+                                            <span class="review-date">2026-03-05 14:51:40</span>
+                                        </div>
+                                        <p class="review-text">주름이 사라졌어요 ... 🤭</p>
+                                        <div class="review-reaction">
+                                            <span>도움이 되었어요!</span>
+                                            <span class="review-heart">
+                                                <span class="material-icons-outlined">favorite</span>
+                                                52
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review-card">
+                                    <div class="best-ribbon">
+                                        BEST
+                                    </div>
+                                    <div class="review-img">
+                                        <a href="https://www.sidmool.com/board/board.html?code=sidmool_image5&page=1&type=v&num1=999919&num2=00000&lock=N">
+                                            <img src="images/review03.jpg" alt="시드물 포토 후기 이미지03">
+                                        </a>
+                                    </div>
+                                    <div class="review-info">
+                                        <div class="review-top">
+                                            <p class="review-user">
+                                                <img src="images/royal-icon-SP09.gif" alt="">
+                                                jijun*****
+                                            </p>
+                                            <span class="review-date">2026-03-03 15:54:46</span>
+                                        </div>
+                                        <p class="review-text">아기침독에도 시드물!</p>
+                                        <div class="review-reaction">
+                                            <span>도움이 되었어요!</span>
+                                            <span class="review-heart">
+                                                <span class="material-icons-outlined">favorite</span>
+                                                70
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review-card">
+                                    <div class="best-ribbon">
+                                        BEST
+                                    </div>
+                                    <div class="review-img">
+                                        <a href="https://www.sidmool.com/board/board.html?code=sidmool_image5&page=1&type=v&num1=999917&num2=00000&lock=N">
+                                            <img src="images/review01.jpg" alt="시드물 포토 후기 이미지01">
+                                        </a>
+                                    </div>
+                                    <div class="review-info">
+                                        <div class="review-top">
+                                            <p class="review-user">
+                                                <img src="images/royal-icon-SP16.gif" alt="">
+                                                ccjj**
+                                            </p>
+                                            <span class="review-date">2026-04-01 14:42:16</span>
+                                        </div>
+                                        <p class="review-text">까라꼴 포어 타이트닝 팩 (모공, 블랙헤드 관리 강추)</p>
+                                        <div class="review-reaction">
+                                            <span>도움이 되었어요!</span>
+                                            <span class="review-heart">
+                                                <span class="material-icons-outlined">favorite</span>
+                                                37
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review-card">
+                                    <div class="best-ribbon">
+                                        BEST
+                                    </div>
+                                    <div class="review-img">
+                                        <a href="https://www.sidmool.com/board/board.html?code=sidmool_image5&page=1&type=v&num1=999918&num2=00000&lock=N">
+                                            <img src="images/review02.jpg" alt="시드물 베스트 포토 후기 이미지02">
+                                        </a>
+                                    </div>
+                                    <div class="review-info">
+                                        <div class="review-top">
+                                            <p class="review-user">
+                                                <img src="images//royal-icon-SP16.gif" alt="">
+                                                jijom*****
+                                            </p>
+                                            <span class="review-date">2026-03-05 14:51:40</span>
+                                        </div>
+                                        <p class="review-text">주름이 사라졌어요 ... 🤭</p>
+                                        <div class="review-reaction">
+                                            <span>도움이 되었어요!</span>
+                                            <span class="review-heart">
+                                                <span class="material-icons-outlined">favorite</span>
+                                                52
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review-card">
+                                    <div class="best-ribbon">
+                                        BEST
+                                    </div>
+                                    <div class="review-img">
+                                        <a href="https://www.sidmool.com/board/board.html?code=sidmool_image5&page=1&type=v&num1=999919&num2=00000&lock=N">
+                                            <img src="images/review03.jpg" alt="시드물 포토 후기 이미지03">
+                                        </a>
+                                    </div>
+                                    <div class="review-info">
+                                        <div class="review-top">
+                                            <p class="review-user">
+                                                <img src="images/royal-icon-SP09.gif" alt="">
+                                                jijun*****
+                                            </p>
+                                            <span class="review-date">2026-03-03 15:54:46</span>
+                                        </div>
+                                        <p class="review-text">아기침독에도 시드물!</p>
+                                        <div class="review-reaction">
+                                            <span>도움이 되었어요!</span>
+                                            <span class="review-heart">
+                                                <span class="material-icons-outlined">favorite</span>
+                                                70
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review-card">
+                                    <div class="best-ribbon">
+                                        BEST
+                                    </div>
+                                    <div class="review-img">
+                                        <a href="https://www.sidmool.com/board/board.html?code=sidmool_image5&page=1&type=v&num1=999917&num2=00000&lock=N">
+                                            <img src="images/review01.jpg" alt="시드물 포토 후기 이미지01">
+                                        </a>
+                                    </div>
+                                    <div class="review-info">
+                                        <div class="review-top">
+                                            <p class="review-user">
+                                                <img src="images/royal-icon-SP16.gif" alt="">
+                                                ccjj**
+                                            </p>
+                                            <span class="review-date">2026-04-01 14:42:16</span>
+                                        </div>
+                                        <p class="review-text">까라꼴 포어 타이트닝 팩 (모공, 블랙헤드 관리 강추)</p>
+                                        <div class="review-reaction">
+                                            <span>도움이 되었어요!</span>
+                                            <span class="review-heart">
+                                                <span class="material-icons-outlined">favorite</span>
+                                                37
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review-card">
+                                    <div class="best-ribbon">
+                                        BEST
+                                    </div>
+                                    <div class="review-img">
+                                        <a href="https://www.sidmool.com/board/board.html?code=sidmool_image5&page=1&type=v&num1=999918&num2=00000&lock=N">
+                                            <img src="images/review02.jpg" alt="시드물 베스트 포토 후기 이미지02">
+                                        </a>
+                                    </div>
+                                    <div class="review-info">
+                                        <div class="review-top">
+                                            <p class="review-user">
+                                                <img src="images//royal-icon-SP16.gif" alt="">
+                                                jijom*****
+                                            </p>
+                                            <span class="review-date">2026-03-05 14:51:40</span>
+                                        </div>
+                                        <p class="review-text">주름이 사라졌어요 ... 🤭</p>
+                                        <div class="review-reaction">
+                                            <span>도움이 되었어요!</span>
+                                            <span class="review-heart">
+                                                <span class="material-icons-outlined">favorite</span>
+                                                52
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review-card">
+                                    <div class="best-ribbon">
+                                        BEST
+                                    </div>
+                                    <div class="review-img">
+                                        <a href="https://www.sidmool.com/board/board.html?code=sidmool_image5&page=1&type=v&num1=999919&num2=00000&lock=N">
+                                            <img src="images/review03.jpg" alt="시드물 포토 후기 이미지03">
+                                        </a>
+                                    </div>
+                                    <div class="review-info">
+                                        <div class="review-top">
+                                            <p class="review-user">
+                                                <img src="images/royal-icon-SP09.gif" alt="">
+                                                jijun*****
+                                            </p>
+                                            <span class="review-date">2026-03-03 15:54:46</span>
+                                        </div>
+                                        <p class="review-text">아기침독에도 시드물!</p>
+                                        <div class="review-reaction">
+                                            <span>도움이 되었어요!</span>
+                                            <span class="review-heart">
+                                                <span class="material-icons-outlined">favorite</span>
+                                                70
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-prev">
+                            <span class="material-symbols-outlined">chevron_left</span>
+                        </div>
+                        <div class="review-next">
+                            <span class="material-symbols-outlined">chevron_right</span>
+                        </div>
+                        <div class="review-pagination"></div>
+                    <div class="review-btn">
+                        <a href="#">포토후기 보러가기</a>
+                    </div>
+                </div>
+            </section>
+            <!-- // review -->
+            <!-- brand-story -->
+            <!-- brand-story -->
+            <section class="brand-story">
+                <h2 class="blind">브랜드 스토리</h2>
+                <div class="brand-story-bg">
+                    <picture>
+                        <source media="(max-width: 680px)" srcset="images/brand-story-banner-mobile.jpg">
+                        <img src="images/brand-story-banner.jpg" alt="시드물 브랜드 스토리 배너">
+                    </picture>
+                    <div class="brand-story-text">
+                        <span>BRAND STORY</span>
+                        <h2>피부를 위한 진짜 성분, 시드물</h2>
+                        <p>시드물은 불필요한 것을 덜고 피부에 필요한 것만 담습니다.</p>
+                        <a href="#">브랜드 스토리 보기</a>
+                    </div>
+                </div>
+            </section>
+            <!-- // brand-story -->
+        </main>
+        <!-- // main -->
+        <!-- ====== footer ====== -->
+        <!-- footer -->
+        <footer class="footer">
+            <!-- footer-top -->
+            <div class="footer-top">
+                <div class="container">
+                    <ul class="footer-menu">
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용안내</a></li>
+                        <li><a href="#">영상정보처리기기 운영/관리 방침</a></li>
+                        <li><a href="#">무이자 할부 혜택</a></li>
+                    </ul>
+                    <ul class="footer-sns">
+                        <li><a href="#"><img src="images/ft-sns-01.png" alt="페이스북"></a></li>
+                        <li><a href="#"><img src="images/ft-sns-02.png" alt="인스타그램"></a></li>
+                        <li><a href="#"><img src="images/ft-sns-03.png" alt="유튜브"></a></li>
+                        <li><a href="#"><img src="images/ft-sns-04.png" alt="카카오톡"></a></li>
+                        <li><a href="#"><img src="images/ft-sns-05.png" alt="네이버"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- // footer-top -->
+            <!-- footer-middle -->
+            <div class="footer-middle">
+                <div class="container">
+                    <div class="footer-info">
+                        <img src="images/logo-footer.png" alt="시드물 로고">
+                        <p>
+                            주식회사 시드물 대표 : 민병권 개인정보책임자 : 박소진<br>
+                            주소 : 대전시 중구 안영로 42(안영동)<br>
+                            대표메일 : help@sidmool.com 팩스 : 042-367-7989 사업자번호 : 305-81-94469<br>
+                            화장품 제조판매업 : 등록필증 제 1163호 통신판매신고번호 : 제2008-대전중구-0247호<br>
+                            건강기능식품일반판매업 : 제 2007-0233493 호 /
+                            건강기능식품유통전문판매업 : 제 2012-0233418 호
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- // footer-middle -->
+            <!-- footer-bottom -->
+            <div class="footer-bottom">
+                <div class="container">
+                    <p>&copy; 2026 SIDMOOL. All rights reserved.</p>
+                    <div class="footer-mark">
+                        <img src="images/ft-isms.png" alt="isms 인증">
+                        <img src="images/ft-tax.png" alt="모범납세자">
+                    </div>
+                </div>
+            </div>
+            <!-- // footer-bottom -->
+        </footer>
+        <!-- // footer -->
+    </div>
+</body>
+</html>
